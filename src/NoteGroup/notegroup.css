@@ -1,0 +1,39 @@
+.groupBody {
+    display: inline-block;
+    overflow: auto;
+    width: 400px;
+    margin: 20px;
+    vertical-align: top;
+    background:rgba(255,255,255,0.5);
+    font-family: 'Consolas', sans-serif;
+    border-radius: 10px;
+}
+
+.groupTitle {
+    height: auto;
+    font-size: 1.4em;
+    padding: 15px;
+    display: flex;
+    word-break: break-all;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    display: flex;
+}
+
+.groupText {
+    float: left;
+    width: 93%;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+.removeGroup {
+    float: 'right';
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
